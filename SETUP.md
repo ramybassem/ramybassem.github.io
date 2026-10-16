@@ -7,48 +7,35 @@ This repo holds only the portfolio pages. It contains no product code.
 | Setting | Value |
 |---|---|
 | GitHub user (`github_user`) | `ramybassem` |
-| Repository (`repo_name`) | `ramy.github.io` |
+| Repository (`repo_name`) | `ramybassem.github.io` |
 | `url` | `https://ramybassem.github.io` |
-| `baseurl` | `/ramy.github.io` |
-| Project-site URL | `https://ramybassem.github.io/ramy.github.io/` |
+| `baseurl` | `""` |
+| Site URL | `https://ramybassem.github.io/` |
 
-The repository is named `ramy.github.io`, not `ramybassem.github.io`, so GitHub Pages treats it as a project site under the user domain. `url` is the domain only. `baseurl` is the project path.
+The repository is named `ramybassem.github.io`, so GitHub Pages serves it as a user site at the domain root. `url` is that origin. `baseurl` is empty.
 
-Product pages read `site.github_user` for the private source-code links. `README.md` is the Jekyll home page (`layout: home`, `permalink: /`). GitHub hides that front matter when it renders the repo README. Image paths in the README are relative (`assets/img/...`) so they resolve both on GitHub and on the project-site home page. Portfolio and product links in the README are absolute, because GitHub does not run `relative_url`. `SETUP.md` stays out of the Jekyll build.
+Product pages read `site.github_user` for the private source-code links. `README.md` is the Jekyll home page (`layout: home`, `permalink: /`). GitHub hides that front matter when it renders the repo README. Image paths in the README are relative (`assets/img/...`) so they resolve both on GitHub and on the home page. Portfolio and product links in the README are absolute (`https://ramybassem.github.io/products/<slug>/`), because GitHub does not run `relative_url`. `SETUP.md` stays out of the Jekyll build.
 
 Planned private product repos, linked from each product page under "Source code" (they show a 404 to visitors by design):
 `scrollscripture`, `wellness-compass`, `tntcalc`, `memsynk`, `aigloservices`.
 
-### Renaming this repo to a user site
+Every internal link and image on the Jekyll pages uses the `relative_url` filter, for example `{{ '/products/tntcalc/' | relative_url }}` and `{{ '/assets/img/tntcalc/app-icon.png' | relative_url }}`. With an empty `baseurl`, those become root paths such as `/products/tntcalc/`.
 
-If the repository is renamed from `ramy.github.io` to `ramybassem.github.io`, GitHub Pages serves it at the root of the user site. Update `_config.yml`:
+`SETUP.md` is not run through Jekyll. `README.md` is. Relative image paths on the home page stay relative to the site root.
 
-```yaml
-repo_name: ramybassem.github.io
-url: "https://ramybassem.github.io"
-baseurl: ""
-```
-
-Leave `github_user` as `ramybassem`.
-
-Every internal link and image on the Jekyll pages uses the `relative_url` filter, for example `{{ '/products/tntcalc/' | relative_url }}` and `{{ '/assets/img/tntcalc/app-icon.png' | relative_url }}`. With a project `baseurl` of `/ramy.github.io`, those become `/ramy.github.io/...`. With `baseurl: ""`, the same tags become root paths such as `/products/tntcalc/`. No page file needs a link edit after the rename.
-
-`SETUP.md` is not run through Jekyll. `README.md` is. After a rename, update the absolute `https://ramybassem.github.io/ramy.github.io/` links in `README.md` to `https://ramybassem.github.io/`. Relative image paths on the home page keep working.
-
-Minima's header, stylesheet, and feed links already use `relative_url`, so the navigation keeps working with either `baseurl`.
+Minima's header, stylesheet, and feed links already use `relative_url`.
 
 ## 2. Publish with GitHub Pages
 
-1. Push these files to the `main` branch of the public repo `ramy.github.io`.
-2. In the repo, open Settings > Pages.
-3. Under "Build and deployment", choose "Deploy from a branch", branch `main`, folder `/ (root)`, and save.
-4. After the Pages build finishes, the site is at `https://ramybassem.github.io/ramy.github.io/`.
+1. Push these files to the `main` branch of `ramybassem/ramybassem.github.io`.
+2. Pages builds with the GitHub Actions workflow on `main`.
+3. After the Pages build finishes, the site is at `https://ramybassem.github.io/`.
 
 ## 3. Before you publish
 
 - Brand art lives in `assets/img/<product>/` and is the product's real public logo or app icon. Each product page has a Brand section with that mark and palette swatches. Accent colors are front matter (`accent`, `accent_ink`, `accent_soft`) and are applied in `assets/main.scss`.
 - Keep it separate from work: no employer logos, data, tools, or internal details anywhere in this repo.
-- Optional local preview: install Ruby, run `bundle install`, then `bundle exec jekyll serve`. Open `http://127.0.0.1:4000/ramy.github.io/`.
+- Optional local preview: install Ruby, run `bundle install`, then `bundle exec jekyll serve`. Open `http://127.0.0.1:4000/`.
 
 ## Brand sources
 
