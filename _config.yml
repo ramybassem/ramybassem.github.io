@@ -20,12 +20,13 @@ author: "Ramy Basily"
 linkedin_username: ramybassem
 
 header_pages:
-  - README.md
+  - index.md
   - about.md
 
 markdown: kramdown
 
 exclude:
+  - README.md
   - SETUP.md
   - Gemfile
   - Gemfile.lock
