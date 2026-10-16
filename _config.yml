@@ -1,0 +1,32 @@
+# Ramy Basily: personal portfolio (GitHub Pages, Jekyll)
+# Project site: https://ramybassem.github.io/ramy.github.io/
+# If this repo is renamed to ramybassem.github.io, set baseurl to "".
+# See SETUP.md.
+github_user: ramybassem
+repo_name: ramy.github.io
+
+title: "Ramy Basily"
+description: "Data Architect in the airline industry. On my own time, I build products that exist for a reason."
+url: "https://ramybassem.github.io"
+baseurl: "/ramy.github.io"
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+author: "Ramy Basily"
+
+linkedin_username: ramybassem
+
+header_pages:
+  - index.md
+  - about.md
+
+markdown: kramdown
+
+exclude:
+  - README.md
+  - SETUP.md
+  - Gemfile
+  - Gemfile.lock

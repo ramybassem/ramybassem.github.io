@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 1150" role="img" aria-labelledby="t d">
+  <title id="t">MemSynk user journey</title>
+  <desc id="d">Connect a tool, pull a ledger, save a new revision, then continue in another AI.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 Z" fill="#149e9a"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.2" flood-color="#091311" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="760" height="1150" fill="#ffffff"/>
+  <line x1="380.0" y1="98.0" x2="380.0" y2="126.0" stroke="#149e9a" stroke-width="1.7" marker-end="url(#arrow)"/>
+<line x1="380.0" y1="208.0" x2="380.0" y2="236.0" stroke="#149e9a" stroke-width="1.7" marker-end="url(#arrow)"/>
+<line x1="380.0" y1="318.0" x2="380.0" y2="346.0" stroke="#149e9a" stroke-width="1.7" marker-end="url(#arrow)"/>
+<line x1="380.0" y1="428.0" x2="380.0" y2="456.0" stroke="#149e9a" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 380.0 538.0 C 380.0 552.0, 148.0 552.0, 148.0 566.0" fill="none" stroke="#149e9a" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 380.0 538.0 C 380.0 552.0, 380.0 552.0, 380.0 566.0" fill="none" stroke="#149e9a" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 380.0 538.0 C 380.0 552.0, 612.0 552.0, 612.0 566.0" fill="none" stroke="#149e9a" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 148.0 662.0 C 148.0 675.0, 380.0 675.0, 380.0 690.0" fill="none" stroke="#149e9a" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 612.0 662.0 C 612.0 675.0, 380.0 675.0, 380.0 690.0" fill="none" stroke="#149e9a" stroke-width="1.7" marker-end="url(#arrow)"/>
+<line x1="380.0" y1="772.0" x2="380.0" y2="800.0" stroke="#149e9a" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 380.0 882.0 C 380.0 896.0, 148.0 896.0, 148.0 910.0" fill="none" stroke="#149e9a" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 380.0 882.0 C 380.0 896.0, 380.0 896.0, 380.0 910.0" fill="none" stroke="#149e9a" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 380.0 882.0 C 380.0 896.0, 612.0 896.0, 612.0 910.0" fill="none" stroke="#149e9a" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 612.0 1006.0 C 612.0 1019.0, 380.0 1019.0, 380.0 1034.0" fill="none" stroke="#149e9a" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="150.0" y="18.0" width="460.0" height="78.0" rx="12" fill="#ffffff" stroke="#08101d" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="50.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#101827">Sign in to the portal</text>
+<text x="380.0" y="71.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#243044">Invite-only</text>
+<rect x="150.0" y="128.0" width="460.0" height="78.0" rx="12" fill="#ffffff" stroke="#08101d" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="160.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#101827">Copy the server address</text>
+<text x="380.0" y="181.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#243044">From Getting started</text>
+<rect x="150.0" y="238.0" width="460.0" height="78.0" rx="12" fill="#ffffff" stroke="#08101d" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="270.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#101827">Add a custom MCP server</text>
+<text x="380.0" y="291.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#243044">In the AI tool</text>
+<rect x="150.0" y="348.0" width="460.0" height="78.0" rx="12" fill="#ffffff" stroke="#08101d" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="380.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#101827">Name the connection</text>
+<text x="380.0" y="401.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#243044">Choose read or read-and-write, then sign in</text>
+<rect x="150.0" y="458.0" width="460.0" height="78.0" rx="12" fill="#ffffff" stroke="#08101d" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="490.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#101827">Pick ledgers</text>
+<text x="380.0" y="511.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#243044">Only the ones this AI may use</text>
+<rect x="38.0" y="582.0" width="220.0" height="78.0" rx="12" fill="#f3fbfb" stroke="#149e9a" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="148.0" y="614.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#101827">Create a ledger</text>
+<text x="148.0" y="635.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#243044">From this conversation</text>
+<text x="148.0" y="576.0" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#0c7c78">No</text>
+<rect x="270.0" y="582.0" width="220.0" height="78.0" rx="12" fill="#f3fbfb" stroke="#0c7c78" stroke-width="1.8" filter="url(#shadow)"/>
+<text x="380.0" y="614.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#101827">Have a ledger yet?</text>
+<text x="380.0" y="635.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#243044">Topic or code</text>
+<rect x="502.0" y="582.0" width="220.0" height="78.0" rx="12" fill="#f3fbfb" stroke="#149e9a" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="612.0" y="614.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#101827">Pull the latest</text>
+<text x="612.0" y="635.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#243044">Load my ledger</text>
+<text x="612.0" y="576.0" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#0c7c78">Yes</text>
+<rect x="150.0" y="692.0" width="460.0" height="78.0" rx="12" fill="#ffffff" stroke="#08101d" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="724.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#101827">Work with the AI</text>
+<text x="380.0" y="745.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#243044">It uses the ledger it just loaded</text>
+<rect x="150.0" y="802.0" width="460.0" height="78.0" rx="12" fill="#ffffff" stroke="#08101d" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="834.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#101827">Say save</text>
+<text x="380.0" y="855.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#243044">Push against the revision it saw</text>
+<rect x="38.0" y="926.0" width="220.0" height="78.0" rx="12" fill="#fafafa" stroke="#c5c5c5" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="148.0" y="958.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#101827">Pull and merge</text>
+<text x="148.0" y="979.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#243044">Stale revision</text>
+<text x="148.0" y="920.0" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#0c7c78">Stale</text>
+<rect x="270.0" y="926.0" width="220.0" height="78.0" rx="12" fill="#f3fbfb" stroke="#0c7c78" stroke-width="1.8" filter="url(#shadow)"/>
+<text x="380.0" y="951.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#101827">Server checks</text>
+<text x="380.0" y="972.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#243044">A rejected save stores</text>
+<text x="380.0" y="986.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#243044">nothing</text>
+<rect x="502.0" y="926.0" width="220.0" height="78.0" rx="12" fill="#f3fbfb" stroke="#149e9a" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="612.0" y="958.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#101827">New revision</text>
+<text x="612.0" y="979.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#243044">History and receipt</text>
+<text x="612.0" y="920.0" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#0c7c78">OK</text>
+<rect x="150.0" y="1036.0" width="460.0" height="78.0" rx="12" fill="#ffffff" stroke="#08101d" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="1068.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#101827">Continue in another AI</text>
+<text x="380.0" y="1089.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#243044">It pulls the latest revision</text>
+</svg>

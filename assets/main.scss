@@ -1,0 +1,323 @@
+---
+---
+
+@import "minima";
+
+/* Product card grid on the home page */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.card {
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+  padding: 1rem 1.1rem;
+  background: #fff;
+}
+
+.card h3 {
+  margin: 0 0 .4rem 0;
+  font-size: 1.15rem;
+}
+
+.card p {
+  margin: 0 0 .6rem 0;
+  font-size: .95rem;
+}
+
+.card .status {
+  font-size: .8rem;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+}
+
+.card .card-icon {
+  display: block;
+  width: 72px;
+  height: 72px;
+  margin: 0 0 .75rem;
+  object-fit: contain;
+  background: transparent;
+}
+
+.mark-tile {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 18px;
+  padding: 10px;
+  line-height: 0;
+}
+
+.card .mark-tile {
+  margin: 0 0 .75rem;
+}
+
+.card .mark-tile .card-icon {
+  margin: 0;
+}
+
+.mark-tile-hero {
+  padding: 14px;
+  border-radius: 24px;
+}
+
+.note {
+  border-left: 3px solid #ccc;
+  padding: .5rem .9rem;
+  color: #555;
+  font-size: .9rem;
+  margin: 1.5rem 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Per-product accent comes from front matter as CSS variables. */
+.product {
+  font-family: var(--product-font, inherit);
+}
+
+.product.uses-serif .post-title,
+.product.uses-serif .post-content h2 {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.hero-band {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-soft, #f4f4f4);
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 0 0 1.25rem;
+  padding: 1.75rem 1rem;
+  min-height: 200px;
+  border-bottom: 5px solid var(--accent, #222);
+}
+
+.hero-band .hero-mark {
+  display: block;
+  width: 180px;
+  height: 180px;
+  max-width: 70%;
+  object-fit: contain;
+}
+
+.mark-round {
+  border-radius: 22%;
+}
+
+.product .post-title,
+.product .post-content h2,
+.product .post-content em {
+  color: var(--accent-ink, var(--accent, #222));
+}
+
+.product .post-content h2 {
+  border-bottom: 2px solid var(--accent, #222);
+  padding-bottom: .2rem;
+}
+
+.product .post-content a {
+  color: var(--accent, #1d4e89);
+  overflow-wrap: anywhere;
+}
+
+.product .post-content a.btn {
+  display: inline-block;
+  margin: .35rem 0 1rem;
+  padding: .6rem 1rem;
+  border-radius: 8px;
+  background: var(--accent, #1d4e89);
+  color: #fff;
+  font-weight: 600;
+  line-height: 1.3;
+  text-decoration: none;
+}
+
+.product .post-content a.btn:hover,
+.product .post-content a.btn:focus {
+  color: #fff;
+  filter: brightness(1.12);
+}
+
+.brand-lockup {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .9rem 1rem;
+  margin: .4rem 0 1rem;
+}
+
+.brand-lockup img {
+  width: 72px;
+  height: 72px;
+  border: 1px solid #e4e4e4;
+  background: transparent;
+  object-fit: contain;
+}
+
+.brand-lockup .identity {
+  flex: 1 1 16rem;
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.45;
+}
+
+.swatches {
+  list-style: none;
+  padding: 0;
+  margin: .4rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+
+.swatches li {
+  display: flex;
+  align-items: center;
+  gap: .45rem;
+  margin: 0;
+  padding: .35rem .6rem;
+  border: 1px solid #e2e2e2;
+  border-radius: 999px;
+  background: #fff;
+  font-size: .85rem;
+  line-height: 1.2;
+}
+
+.chip {
+  width: 1.05rem;
+  height: 1.05rem;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, .18);
+  flex: 0 0 auto;
+}
+
+.product .post-content h3 {
+  margin-top: 1.35rem;
+  color: var(--accent-ink, #222);
+}
+
+.diagram {
+  margin: 1.1rem 0 1.5rem;
+}
+
+.diagram img {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 12px;
+}
+
+.diagram figcaption {
+  margin-top: .4rem;
+  font-size: .88rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+.product .table-wrap {
+  width: 100%;
+  margin: .4rem 0 1.2rem;
+}
+
+.product .table-wrap table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .95rem;
+  margin: 0;
+}
+
+.product .table-wrap th,
+.product .table-wrap td {
+  text-align: left;
+  vertical-align: top;
+  padding: .55rem .7rem;
+  border: 0;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.product .table-wrap th {
+  border-bottom: 2px solid var(--accent, #222);
+  color: var(--accent-ink, #222);
+}
+
+@media (max-width: 600px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .card,
+  .hero-band,
+  .brand-lockup,
+  .swatches li {
+    max-width: 100%;
+  }
+
+  .product .post-content a.btn {
+    max-width: 100%;
+  }
+
+  .diagram {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .diagram img {
+    min-width: 640px;
+  }
+
+  .product .table-wrap table,
+  .product .table-wrap tbody,
+  .product .table-wrap tr,
+  .product .table-wrap td {
+    display: block;
+    width: 100%;
+  }
+
+  .product .table-wrap thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+  }
+
+  .product .table-wrap tr {
+    margin: 0 0 .75rem;
+    border: 1px solid #e4e4e4;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .product .table-wrap td {
+    border-bottom: 1px solid #eee;
+    padding: .55rem .75rem;
+  }
+
+  .product .table-wrap td:last-child {
+    border-bottom: 0;
+  }
+
+  .product .table-wrap td::before {
+    content: attr(data-label);
+    display: block;
+    font-weight: 700;
+    font-size: .72rem;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: var(--accent, #333);
+    margin-bottom: .15rem;
+  }
+}

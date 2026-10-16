@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<article
+  class="post product {{ page.font_class }}"
+  style="--accent: {{ page.accent }}; --accent-ink: {{ page.accent_ink | default: page.accent }}; --accent-soft: {{ page.accent_soft }}; --product-font: {{ page.font | default: 'inherit' }};">
+
+  <div class="hero-band">
+    {% if page.mark_tile %}
+    <span class="mark-tile mark-tile-hero">
+    {% endif %}
+    <img
+      class="hero-mark {{ page.mark_class }}"
+      src="{{ page.mark | relative_url }}"
+      alt="{{ page.mark_alt | escape }}"
+      width="180"
+      height="180">
+    {% if page.mark_tile %}
+    </span>
+    {% endif %}
+  </div>
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>

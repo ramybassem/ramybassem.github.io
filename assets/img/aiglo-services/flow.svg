@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 1150" role="img" aria-labelledby="t d">
+  <title id="t">Aiglo Services customer journey</title>
+  <desc id="d">From the French homepage to a personal reply. There is no checkout.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 Z" fill="#007BFF"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.2" flood-color="#091311" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="760" height="1150" fill="#ffffff"/>
+  <path d="M 380.0 98.0 C 380.0 112.0, 148.0 112.0, 148.0 126.0" fill="none" stroke="#007BFF" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 380.0 98.0 C 380.0 112.0, 380.0 112.0, 380.0 126.0" fill="none" stroke="#007BFF" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 380.0 98.0 C 380.0 112.0, 612.0 112.0, 612.0 126.0" fill="none" stroke="#007BFF" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 148.0 222.0 C 148.0 235.0, 380.0 235.0, 380.0 250.0" fill="none" stroke="#007BFF" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 612.0 222.0 C 612.0 235.0, 380.0 235.0, 380.0 250.0" fill="none" stroke="#007BFF" stroke-width="1.7" marker-end="url(#arrow)"/>
+<line x1="380.0" y1="332.0" x2="380.0" y2="360.0" stroke="#007BFF" stroke-width="1.7" marker-end="url(#arrow)"/>
+<line x1="380.0" y1="442.0" x2="380.0" y2="470.0" stroke="#007BFF" stroke-width="1.7" marker-end="url(#arrow)"/>
+<line x1="380.0" y1="552.0" x2="380.0" y2="580.0" stroke="#007BFF" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 380.0 662.0 C 380.0 676.0, 148.0 676.0, 148.0 690.0" fill="none" stroke="#007BFF" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 380.0 662.0 C 380.0 676.0, 380.0 676.0, 380.0 690.0" fill="none" stroke="#007BFF" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 380.0 662.0 C 380.0 676.0, 612.0 676.0, 612.0 690.0" fill="none" stroke="#007BFF" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 612.0 786.0 C 612.0 799.0, 380.0 799.0, 380.0 814.0" fill="none" stroke="#007BFF" stroke-width="1.7" marker-end="url(#arrow)"/>
+<line x1="380.0" y1="896.0" x2="380.0" y2="924.0" stroke="#007BFF" stroke-width="1.7" marker-end="url(#arrow)"/>
+<line x1="380.0" y1="1006.0" x2="380.0" y2="1034.0" stroke="#007BFF" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="150.0" y="18.0" width="460.0" height="78.0" rx="12" fill="#ffffff" stroke="#004A99" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="50.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#1A1A1A">Land on the homepage</text>
+<text x="380.0" y="71.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#333333">French by default</text>
+<rect x="38.0" y="142.0" width="220.0" height="78.0" rx="12" fill="#f5f9fd" stroke="#007BFF" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="148.0" y="174.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#1A1A1A">Language saved</text>
+<text x="148.0" y="195.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#333333">Remembered on later visits</text>
+<text x="148.0" y="136.0" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#004A99">Yes</text>
+<rect x="270.0" y="142.0" width="220.0" height="78.0" rx="12" fill="#f5f9fd" stroke="#004A99" stroke-width="1.8" filter="url(#shadow)"/>
+<text x="380.0" y="174.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#1A1A1A">Switch to English?</text>
+<text x="380.0" y="195.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#333333">One click, whole interface</text>
+<rect x="502.0" y="142.0" width="220.0" height="78.0" rx="12" fill="#f5f9fd" stroke="#007BFF" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="612.0" y="174.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#1A1A1A">Stay in French</text>
+<text x="612.0" y="195.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#333333">Default language</text>
+<text x="612.0" y="136.0" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#004A99">No</text>
+<rect x="150.0" y="252.0" width="460.0" height="78.0" rx="12" fill="#ffffff" stroke="#004A99" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="284.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#1A1A1A">Browse categories</text>
+<text x="380.0" y="305.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#333333">Eight commercial categories</text>
+<rect x="150.0" y="362.0" width="460.0" height="78.0" rx="12" fill="#ffffff" stroke="#004A99" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="394.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#1A1A1A">Open a category or search</text>
+<text x="380.0" y="415.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#333333">Header search on key pages</text>
+<rect x="150.0" y="472.0" width="460.0" height="78.0" rx="12" fill="#ffffff" stroke="#004A99" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="504.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#1A1A1A">View the product</text>
+<text x="380.0" y="525.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#333333">Name, pack size, product code</text>
+<rect x="150.0" y="582.0" width="460.0" height="78.0" rx="12" fill="#ffffff" stroke="#004A99" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="614.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#1A1A1A">Add to Quote</text>
+<text x="380.0" y="635.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#333333">No account needed</text>
+<rect x="38.0" y="706.0" width="220.0" height="78.0" rx="12" fill="#f5f9fd" stroke="#007BFF" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="148.0" y="731.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#1A1A1A">Keep browsing</text>
+<text x="148.0" y="752.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#333333">Add items from other</text>
+<text x="148.0" y="766.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#333333">categories</text>
+<text x="148.0" y="700.0" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#004A99">Yes</text>
+<rect x="270.0" y="706.0" width="220.0" height="78.0" rx="12" fill="#f5f9fd" stroke="#004A99" stroke-width="1.8" filter="url(#shadow)"/>
+<text x="380.0" y="731.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#1A1A1A">Need more items?</text>
+<text x="380.0" y="752.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#333333">The list stays with the</text>
+<text x="380.0" y="766.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#333333">visitor</text>
+<rect x="502.0" y="706.0" width="220.0" height="78.0" rx="12" fill="#f5f9fd" stroke="#007BFF" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="612.0" y="738.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#1A1A1A">Open the quote list</text>
+<text x="612.0" y="759.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#333333">Adjust quantities</text>
+<text x="612.0" y="700.0" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#004A99">No</text>
+<rect x="150.0" y="816.0" width="460.0" height="78.0" rx="12" fill="#ffffff" stroke="#004A99" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="848.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#1A1A1A">Send the request</text>
+<text x="380.0" y="869.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#333333">Contact and company details</text>
+<rect x="150.0" y="926.0" width="460.0" height="78.0" rx="12" fill="#ffffff" stroke="#004A99" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="958.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#1A1A1A">Confirmation page</text>
+<text x="380.0" y="979.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#333333">Request received</text>
+<rect x="150.0" y="1036.0" width="460.0" height="78.0" rx="12" fill="#ffffff" stroke="#004A99" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="1068.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#1A1A1A">Aiglo replies</text>
+<text x="380.0" y="1089.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#333333">Availability, quantities, pricing, delivery</text>
+</svg>

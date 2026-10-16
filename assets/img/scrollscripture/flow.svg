@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 1026" role="img" aria-labelledby="t d">
+  <title id="t">ScrollScripture path from verse to published reflection</title>
+  <desc id="d">Scheduled planning, canonical scripture, AI commentary, human review, then the feed.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 Z" fill="#c49845"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.2" flood-color="#091311" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="760" height="1026" fill="#ffffff"/>
+  <line x1="380.0" y1="98.0" x2="380.0" y2="126.0" stroke="#c49845" stroke-width="1.7" marker-end="url(#arrow)"/>
+<line x1="380.0" y1="208.0" x2="380.0" y2="236.0" stroke="#c49845" stroke-width="1.7" marker-end="url(#arrow)"/>
+<line x1="380.0" y1="318.0" x2="380.0" y2="346.0" stroke="#c49845" stroke-width="1.7" marker-end="url(#arrow)"/>
+<line x1="380.0" y1="428.0" x2="380.0" y2="456.0" stroke="#c49845" stroke-width="1.7" marker-end="url(#arrow)"/>
+<line x1="380.0" y1="538.0" x2="380.0" y2="566.0" stroke="#c49845" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 380.0 648.0 C 380.0 662.0, 104.0 662.0, 104.0 676.0" fill="none" stroke="#c49845" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 380.0 648.0 C 380.0 662.0, 288.0 662.0, 288.0 676.0" fill="none" stroke="#c49845" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 380.0 648.0 C 380.0 662.0, 472.0 662.0, 472.0 676.0" fill="none" stroke="#c49845" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 380.0 648.0 C 380.0 662.0, 656.0 662.0, 656.0 676.0" fill="none" stroke="#c49845" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 472.0 772.0 C 472.0 785.0, 380.0 785.0, 380.0 800.0" fill="none" stroke="#c49845" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 656.0 772.0 C 656.0 785.0, 380.0 785.0, 380.0 800.0" fill="none" stroke="#c49845" stroke-width="1.7" marker-end="url(#arrow)"/>
+<line x1="380.0" y1="882.0" x2="380.0" y2="910.0" stroke="#c49845" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="150.0" y="18.0" width="460.0" height="78.0" rx="12" fill="#ffffff" stroke="#091311" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="50.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#091311">EventBridge schedule</text>
+<text x="380.0" y="71.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#4c5853">Balanced feed, journeys, topics, Coptic Gospel</text>
+<rect x="150.0" y="128.0" width="460.0" height="78.0" rx="12" fill="#ffffff" stroke="#091311" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="160.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#091311">Planner picks a passage</text>
+<text x="380.0" y="181.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#4c5853">Skips recently used passages, queues the job</text>
+<rect x="150.0" y="238.0" width="460.0" height="78.0" rx="12" fill="#ffffff" stroke="#091311" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="270.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#091311">Load canonical Scripture</text>
+<text x="380.0" y="291.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#4c5853">Code inserts the verse. AI never writes it</text>
+<rect x="150.0" y="348.0" width="460.0" height="78.0" rx="12" fill="#ffffff" stroke="#091311" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="380.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#091311">AI writer drafts commentary</text>
+<text x="380.0" y="401.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#4c5853">English, Arabic and French</text>
+<rect x="150.0" y="458.0" width="460.0" height="78.0" rx="12" fill="#fbf7ee" stroke="#8a6230" stroke-width="1.8" filter="url(#shadow)"/>
+<text x="380.0" y="490.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#091311">Scripture check, review, moderation</text>
+<text x="380.0" y="511.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#4c5853">One revision can return to the writer</text>
+<rect x="150.0" y="568.0" width="460.0" height="78.0" rx="12" fill="#fbf7ee" stroke="#8a6230" stroke-width="1.8" filter="url(#shadow)"/>
+<text x="380.0" y="600.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#091311">Needs Review</text>
+<text x="380.0" y="621.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#4c5853">A human editor approves, rejects, regenerates or schedules</text>
+<rect x="18.0" y="692.0" width="172.0" height="78.0" rx="12" fill="#fafafa" stroke="#c5c5c5" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="104.0" y="724.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#091311">Rejected</text>
+<text x="104.0" y="745.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#4c5853">Not published</text>
+<text x="104.0" y="686.0" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#8a6230">Reject</text>
+<rect x="202.0" y="692.0" width="172.0" height="78.0" rx="12" fill="#fbf7ee" stroke="#c49845" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="288.0" y="724.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#091311">Regenerate</text>
+<text x="288.0" y="745.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#4c5853">Returns to the writer</text>
+<text x="288.0" y="686.0" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#8a6230">Regenerate</text>
+<rect x="386.0" y="692.0" width="172.0" height="78.0" rx="12" fill="#fbf7ee" stroke="#c49845" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="472.0" y="724.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#091311">Approve now</text>
+<text x="472.0" y="745.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#4c5853">Goes live</text>
+<text x="472.0" y="686.0" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#8a6230">Approve</text>
+<rect x="570.0" y="692.0" width="172.0" height="78.0" rx="12" fill="#fbf7ee" stroke="#c49845" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="656.0" y="724.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#091311">Schedule</text>
+<text x="656.0" y="745.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#4c5853">Every 5 minutes</text>
+<text x="656.0" y="686.0" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#8a6230">Schedule</text>
+<rect x="150.0" y="802.0" width="460.0" height="78.0" rx="12" fill="#ffffff" stroke="#091311" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="834.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#091311">Published</text>
+<text x="380.0" y="855.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#4c5853">Live on the feed</text>
+<rect x="150.0" y="912.0" width="460.0" height="78.0" rx="12" fill="#ffffff" stroke="#091311" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="944.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#091311">Feed, audio and push</text>
+<text x="380.0" y="965.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#4c5853">English Polly audio. APNs live. Android and FCM planned</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 930" role="img" aria-labelledby="t d">
+  <title id="t">TNTCalc user journey</title>
+  <desc id="d">Anyone can build a pass. Signing in is only for saving, reloading or sharing.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 Z" fill="#0f766e"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.2" flood-color="#091311" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="760" height="930" fill="#ffffff"/>
+  <line x1="380.0" y1="98.0" x2="380.0" y2="126.0" stroke="#0f766e" stroke-width="1.7" marker-end="url(#arrow)"/>
+<line x1="380.0" y1="208.0" x2="380.0" y2="236.0" stroke="#0f766e" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 380.0 318.0 C 380.0 332.0, 148.0 332.0, 148.0 346.0" fill="none" stroke="#0f766e" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 380.0 318.0 C 380.0 332.0, 380.0 332.0, 380.0 346.0" fill="none" stroke="#0f766e" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 380.0 318.0 C 380.0 332.0, 612.0 332.0, 612.0 346.0" fill="none" stroke="#0f766e" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 612.0 442.0 C 612.0 455.0, 380.0 455.0, 380.0 470.0" fill="none" stroke="#0f766e" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 380.0 552.0 C 380.0 566.0, 148.0 566.0, 148.0 580.0" fill="none" stroke="#0f766e" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 380.0 552.0 C 380.0 566.0, 380.0 566.0, 380.0 580.0" fill="none" stroke="#0f766e" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 380.0 552.0 C 380.0 566.0, 612.0 566.0, 612.0 580.0" fill="none" stroke="#0f766e" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 612.0 676.0 C 612.0 689.0, 380.0 689.0, 380.0 704.0" fill="none" stroke="#0f766e" stroke-width="1.7" marker-end="url(#arrow)"/>
+<line x1="380.0" y1="786.0" x2="380.0" y2="814.0" stroke="#0f766e" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="150.0" y="18.0" width="460.0" height="78.0" rx="12" fill="#ffffff" stroke="#0f766e" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="50.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#17202a">Open the calculator</text>
+<text x="380.0" y="71.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#3d4a55">tntcalc.com or the iOS app</text>
+<rect x="150.0" y="128.0" width="460.0" height="78.0" rx="12" fill="#ffffff" stroke="#0f766e" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="160.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#17202a">Pick a discipline</text>
+<text x="380.0" y="181.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#3d4a55">Trampoline, Double Mini or Tumbling</text>
+<rect x="150.0" y="238.0" width="460.0" height="78.0" rx="12" fill="#ffffff" stroke="#0f766e" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="270.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#17202a">Enter a skill</text>
+<text x="380.0" y="291.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#3d4a55">FIG code and position on the keypad</text>
+<rect x="38.0" y="362.0" width="220.0" height="78.0" rx="12" fill="#fafafa" stroke="#c5c5c5" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="148.0" y="394.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#17202a">Show the error</text>
+<text x="148.0" y="415.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#3d4a55">Says exactly what is wrong</text>
+<text x="148.0" y="356.0" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#0f766e">No</text>
+<rect x="270.0" y="362.0" width="220.0" height="78.0" rx="12" fill="#f4f8f8" stroke="#0f766e" stroke-width="1.8" filter="url(#shadow)"/>
+<text x="380.0" y="394.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#17202a">Valid skill?</text>
+<text x="380.0" y="415.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#3d4a55">Checked in the browser</text>
+<rect x="502.0" y="362.0" width="220.0" height="78.0" rx="12" fill="#f4f8f8" stroke="#0f766e" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="612.0" y="394.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#17202a">Add the skill</text>
+<text x="612.0" y="415.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#3d4a55">Running total DD updates</text>
+<text x="612.0" y="356.0" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#0f766e">Yes</text>
+<rect x="150.0" y="472.0" width="460.0" height="78.0" rx="12" fill="#ffffff" stroke="#0f766e" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="504.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#17202a">Reorder or screenshot</text>
+<text x="380.0" y="525.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#3d4a55">More skills return to the keypad</text>
+<rect x="38.0" y="596.0" width="220.0" height="78.0" rx="12" fill="#fafafa" stroke="#c5c5c5" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="148.0" y="628.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#17202a">Sign in or register</text>
+<text x="148.0" y="649.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#3d4a55">Confirm the email code</text>
+<text x="148.0" y="590.0" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#0f766e">No</text>
+<rect x="270.0" y="596.0" width="220.0" height="78.0" rx="12" fill="#f4f8f8" stroke="#0f766e" stroke-width="1.8" filter="url(#shadow)"/>
+<text x="380.0" y="628.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#17202a">Signed in?</text>
+<text x="380.0" y="649.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#3d4a55">Only required to save</text>
+<rect x="502.0" y="596.0" width="220.0" height="78.0" rx="12" fill="#f4f8f8" stroke="#0f766e" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="612.0" y="628.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#17202a">Save the pass</text>
+<text x="612.0" y="649.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#3d4a55">Title it and keep it</text>
+<text x="612.0" y="590.0" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#0f766e">Yes</text>
+<rect x="150.0" y="706.0" width="460.0" height="78.0" rx="12" fill="#ffffff" stroke="#0f766e" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="738.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#17202a">My passes</text>
+<text x="380.0" y="759.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#3d4a55">Load, override, save as, or delete</text>
+<rect x="150.0" y="816.0" width="460.0" height="78.0" rx="12" fill="#ffffff" stroke="#0f766e" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="848.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#17202a">Share link</text>
+<text x="380.0" y="869.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#3d4a55">Anyone can open an editable copy</text>
+</svg>
