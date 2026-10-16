@@ -14,7 +14,7 @@ This repo holds only the portfolio pages. It contains no product code.
 
 The repository is named `ramy.github.io`, not `ramybassem.github.io`, so GitHub Pages treats it as a project site under the user domain. `url` is the domain only. `baseurl` is the project path.
 
-Product pages read `site.github_user` for the private source-code links. `README.md` spells the same user and repository into its links by hand, because `README.md` and this file are excluded from the Jekyll build.
+Product pages read `site.github_user` for the private source-code links. `README.md` is the Jekyll home page (`layout: home`, `permalink: /`). GitHub hides that front matter when it renders the repo README. Image paths in the README are relative (`assets/img/...`) so they resolve both on GitHub and on the project-site home page. Portfolio and product links in the README are absolute, because GitHub does not run `relative_url`. `SETUP.md` stays out of the Jekyll build.
 
 Planned private product repos, linked from each product page under "Source code" (they show a 404 to visitors by design):
 `scrollscripture`, `wellness-compass`, `tntcalc`, `memsynk`, `aigloservices`.
@@ -33,7 +33,7 @@ Leave `github_user` as `ramybassem`.
 
 Every internal link and image on the Jekyll pages uses the `relative_url` filter, for example `{{ '/products/tntcalc/' | relative_url }}` and `{{ '/assets/img/tntcalc/app-icon.png' | relative_url }}`. With a project `baseurl` of `/ramy.github.io`, those become `/ramy.github.io/...`. With `baseurl: ""`, the same tags become root paths such as `/products/tntcalc/`. No page file needs a link edit after the rename.
 
-`README.md` and `SETUP.md` are not run through Jekyll. After a rename, update the absolute `https://ramybassem.github.io/ramy.github.io/` links in `README.md` to `https://ramybassem.github.io/`.
+`SETUP.md` is not run through Jekyll. `README.md` is. After a rename, update the absolute `https://ramybassem.github.io/ramy.github.io/` links in `README.md` to `https://ramybassem.github.io/`. Relative image paths on the home page keep working.
 
 Minima's header, stylesheet, and feed links already use `relative_url`, so the navigation keeps working with either `baseurl`.
 

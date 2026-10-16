@@ -28,7 +28,18 @@
   font-size: .95rem;
 }
 
+.card .tagline {
+  margin: 0 0 .35rem;
+  color: #444;
+}
+
+.card .links {
+  margin: .15rem 0 .45rem;
+  font-size: .9rem;
+}
+
 .card .status {
+  display: block;
   font-size: .8rem;
   color: #666;
   text-transform: uppercase;
