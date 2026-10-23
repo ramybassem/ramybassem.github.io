@@ -5,7 +5,7 @@ title: Home
 
 I'm Ramy Basily, a Data Architect in the airline industry. My day job is helping organizations make their data trusted, discoverable and AI-ready. You can find me on [LinkedIn](https://www.linkedin.com/in/ramybassem).
 
-On my own time, **I build products that exist for a reason.** Each one started with a real need: faith, health, family and community, and owning your own AI context.
+On my own time, **I build products that exist for a reason.** Each one started with a real need: faith, health, money, family and community, and owning your own AI context.
 
 <div class="cards">
 
@@ -35,6 +35,13 @@ On my own time, **I build products that exist for a reason.** Each one started w
     <h3><a href="{{ '/products/wellness-compass/' | relative_url }}">Wellness Compass</a></h3>
     <p>My personal health data hub. Garmin and Withings data on a secure host, available to AI assistants through read-only MCP tools.</p>
     <span class="status">Personal build</span>
+  </div>
+
+  <div class="card">
+    <img class="card-icon" src="{{ '/assets/img/cento/app-icon.png' | relative_url }}" width="72" height="72" alt="Cento logo">
+    <h3><a href="{{ '/products/cento/' | relative_url }}">Cento</a></h3>
+    <p>My personal-finance coach. Read-only bank accounts, a portal for spending, bills and income, and read-only tools for AI assistants.</p>
+    <span class="status">v1 · invite-only</span>
   </div>
 
   <div class="card">

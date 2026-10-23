@@ -20,6 +20,7 @@ Outside of work, I build small products, and each one exists for a reason:
 - [TNTCalc]({{ '/products/tntcalc/' | relative_url }}) is a free difficulty calculator for my sons' trampoline and tumbling community.
 - [MemSynk]({{ '/products/memsynk/' | relative_url }}) lets people own their AI context across tools.
 - [Wellness Compass]({{ '/products/wellness-compass/' | relative_url }}) is my personal health data hub.
+- [Cento]({{ '/products/cento/' | relative_url }}) is my personal-finance coach (v1, invite-only).
 - [Aiglo Services]({{ '/products/aiglo-services/' | relative_url }}) is the e-commerce site I built for my sister's business.
 
 I use AI heavily when I build, and I'm glad to. But speed only matters when it's pointed at something worth building.

@@ -17,7 +17,7 @@ The repository is named `ramybassem.github.io`, so GitHub Pages serves it as a u
 Product pages read `site.github_user` for the private source-code links. `index.md` is the styled Jekyll home page. `README.md` is the GitHub landing page only: an HTML card grid GitHub can render without the site CSS. It is excluded from the Jekyll build so it does not replace `index.md`. Its product links are absolute (`https://ramybassem.github.io/products/<slug>/`). `SETUP.md` stays out of the Jekyll build.
 
 Planned private product repos, linked from each product page under "Source code" (they show a 404 to visitors by design):
-`scrollscripture`, `wellness-compass`, `tntcalc`, `memsynk`, `aigloservices`.
+`scrollscripture`, `wellness-compass`, `tntcalc`, `memsynk`, `aigloservices`, `cento`.
 
 Every internal link and image on the Jekyll pages uses the `relative_url` filter, for example `{{ '/products/tntcalc/' | relative_url }}` and `{{ '/assets/img/tntcalc/app-icon.png' | relative_url }}`. With an empty `baseurl`, those become root paths such as `/products/tntcalc/`.
 
@@ -46,3 +46,4 @@ Colors were taken from public sites where one was reachable. Nothing here came f
 - **MemSynk.** Official square icon from the MemSynk brand folder, saved as `assets/img/memsynk/icon.png` (256×256). A larger brand image is saved as `MemSynk.png`. The public favicon is not used. Theme `#08101d`, teal `#55dfdb`, violet `#b394f6`, blue `#53a6f8`, ink `#101827`. Font: Inter.
 - **Aiglo Services.** Eagle logo `https://aigloservices.ca/wp-content/uploads/2026/06/logo.png` (1024×1024). The GitHub README uses `logo-tile.png`, the same eagle on a white rounded tile. The header uses a smaller eagle head, `https://aigloservices.ca/wp-content/uploads/2026/06/logo-2.png` (130×130). No favicon, apple-touch-icon, manifest icon, or og:image. Kit colors `#004A99`, `#007BFF`, `#1A1A1A`, `#333333`. Font: Roboto.
 - **Wellness Compass.** No public site. The iOS app icon was supplied locally and saved as `app-icon.png` (512×512, downsized from 1024). Palette: `#173f35`, `#12473B`, `#245b4c`, `#EBF5F0`, `#f2f4ef`, `#17251f`.
+- **Cento.** From `https://cento.coach` (v1, released October 23, 2026). Apple touch icon `https://cento.coach/app-icon.svg`, rasterized to `app-icon.png` (512×512) for the card, hero, and Brand section. Favicon saved as `favicon.svg`. The in-app mark is `symbol.png` and the wordmark is `lockup.png`, both downloaded from the live site. Theme `#0F3D3E`. CSS `--cento-accent` `#E0A458`, `--cento-bg` `#F7F5F0`, `--cento-tint` `#BDC8C4`, `--cento-text-secondary` `#5A7A78`, surface `#FFFFFF`. Font: Source Sans 3. Tagline: Every cent, in plain sight.

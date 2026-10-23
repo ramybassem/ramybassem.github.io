@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 796" role="img" aria-labelledby="t d">
+  <title id="t">Cento journey</title>
+  <desc id="d">From cento.coach through read-only bank sync to the portal and a read-only AI coach.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 Z" fill="#0F3D3E"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.2" flood-color="#091311" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="760" height="796" fill="#ffffff"/>
+
+<rect x="230.0" y="18.0" width="300.0" height="78.0" rx="12" fill="#ffffff" stroke="#0F3D3E" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="47.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#0F3D3E">Open cento.coach</text>
+<text x="380.0" y="68.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#5A7A78">www redirects to the apex</text>
+<line x1="380.0" y1="102.0" x2="380.0" y2="124.0" stroke="#0F3D3E" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="230.0" y="128.0" width="300.0" height="78.0" rx="12" fill="#ffffff" stroke="#0F3D3E" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="157.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#0F3D3E">Sign in</text>
+<text x="380.0" y="178.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#5A7A78">Cognito, optional MFA</text>
+<line x1="380.0" y1="212.0" x2="380.0" y2="234.0" stroke="#0F3D3E" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="230.0" y="238.0" width="300.0" height="78.0" rx="12" fill="#ffffff" stroke="#0F3D3E" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="267.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#0F3D3E">Connect a bank</text>
+<text x="380.0" y="288.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#5A7A78">Plaid Link, read-only</text>
+<line x1="380.0" y1="322.0" x2="380.0" y2="344.0" stroke="#0F3D3E" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="230.0" y="348.0" width="300.0" height="78.0" rx="12" fill="#ffffff" stroke="#0F3D3E" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="377.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#0F3D3E">Sync runs</text>
+<text x="380.0" y="398.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#5A7A78">EventBridge schedule and SQS</text>
+<line x1="380.0" y1="432.0" x2="380.0" y2="454.0" stroke="#0F3D3E" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="230.0" y="458.0" width="300.0" height="78.0" rx="12" fill="#ffffff" stroke="#0F3D3E" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="487.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#0F3D3E">Encrypted store</text>
+<text x="380.0" y="508.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#5A7A78">DynamoDB, encrypted with KMS</text>
+<line x1="380.0" y1="542.0" x2="380.0" y2="564.0" stroke="#0F3D3E" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="230.0" y="568.0" width="300.0" height="78.0" rx="12" fill="#ffffff" stroke="#0F3D3E" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="597.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#0F3D3E">Use the portal</text>
+<text x="380.0" y="618.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#5A7A78">Spending, bills, income, accounts</text>
+<line x1="380.0" y1="652.0" x2="380.0" y2="674.0" stroke="#0F3D3E" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="230.0" y="678.0" width="300.0" height="78.0" rx="12" fill="#ffffff" stroke="#0F3D3E" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="380.0" y="707.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#0F3D3E">Ask an AI coach</text>
+<text x="380.0" y="728.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="450" fill="#5A7A78">MCP /mcp, behind auth</text>
+</svg>

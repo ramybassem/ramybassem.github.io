@@ -5,7 +5,7 @@
   <a href="https://ramybassem.github.io/"><img alt="View the live site" src="https://img.shields.io/badge/View%20the%20live%20site-ramybassem.github.io-0969da?style=for-the-badge"></a>
 </p>
 
-My day job is helping organizations make their data trusted, discoverable and AI-ready. On my own time, I build products that exist for a reason. Each one started with a real need: faith, health, family and community, and owning your own AI context.
+My day job is helping organizations make their data trusted, discoverable and AI-ready. On my own time, I build products that exist for a reason. Each one started with a real need: faith, health, money, family and community, and owning your own AI context.
 
 <table>
   <tr>
@@ -71,7 +71,24 @@ My day job is helping organizations make their data trusted, discoverable and AI
     </td>
   </tr>
   <tr>
-    <td colspan="2" align="center">
+    <td align="center" valign="top" width="50%">
+      <a href="https://ramybassem.github.io/products/cento/"><img src="assets/img/cento/app-icon.png" width="72" height="72" alt="Cento logo"></a>
+      <br>
+      <b><a href="https://ramybassem.github.io/products/cento/">Cento</a></b>
+      <br>
+      <em>Every cent, in plain sight.</em>
+      <br>
+      A personal-finance coach. Read-only bank data, a portal, and AI coaching on your own money.
+      <br>
+      v1 · invite-only
+      <br>
+      <sub>
+        <a href="https://ramybassem.github.io/products/cento/">Live page</a>
+        ·
+        <a href="https://cento.coach">cento.coach</a>
+      </sub>
+    </td>
+    <td align="center" valign="top" width="50%">
       <a href="https://ramybassem.github.io/products/aiglo-services/"><img src="assets/img/aiglo-services/logo-tile.png" width="72" height="72" alt="Aiglo Services eagle logo"></a>
       <br>
       <b><a href="https://ramybassem.github.io/products/aiglo-services/">Aiglo Services</a></b>
