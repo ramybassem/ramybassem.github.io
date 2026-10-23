@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Cento">
+  <rect width="1024" height="1024" fill="#0F3D3E"/>
+  <rect x="232" y="292" width="560" height="120" rx="60" fill="#F7F5F0"/>
+  <rect x="232" y="452" width="364" height="120" rx="60" fill="#E0A458"/>
+  <rect x="232" y="612" width="196" height="120" rx="60" fill="#F7F5F0"/>
+</svg>
